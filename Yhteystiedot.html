@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Soini</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue&family=Heebo:400&display=swap">
+    <style>
+body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: black;
+            padding: 20px;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+        }
+        
+        header h1 {
+            color: white;
+        }
+        
+        nav {
+            text-align: center;
+            background-color: rgb(223, 134, 0);
+            padding: 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex; 
+            justify-content: center; 
+        }
+        
+        nav li {
+            margin-right: 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        
+        @media (min-width: 768px) {
+            nav ul {
+                flex-direction: row; 
+            }
+        }
+
+        
+        @media (max-width: 767px) {
+            nav ul {
+                flex-direction: row; 
+            }
+        }
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        
+        .content-box {
+            background-color: white;
+            color: black;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 400px;
+        }
+        
+        .content-box img {
+            max-width: 100%;
+            height: auto;
+            width: 100%; 
+    max-height: 400px; 
+        }
+        .content-box a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.content-box a:hover {
+    text-decoration: underline; 
+}
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+body, p {
+    font-family: 'Heebo', sans-serif; 
+    font-weight: 400; 
+    
+}
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Yhteystiedot</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Koti</a></li>
+            <li><a href="Koulutus.html">Koulutus</a></li>
+            <li><a href="työkokemus.html">Työkokemus</a></li>
+            <li><a href="Yhteystiedot.html">Yhteystiedot</a></li>
+        </ul>
+    </nav>
+    <div class="content-container">
+        <div class="content-box">
+            <img src="Yhteystiedot.jpg" alt="Soittaakaa">
+            <h2>Puhelin</h2>
+            <p>Piilotettu</p>
+            <h2>Sähköposti</h2>
+            <p>tommy.soini@haaga-helia.fi</p>
+        </div>
+        <div class="content-box">
+            <img src="Some.jpg" alt="Sosiaaliset Mediat">
+            <h2>Sosiaaliset Mediat</h2>
+            <a href="https://www.linkedin.com/in/tommy-soini-99792118a/" target="_blank">Linked</a>
+           <p></p>
+            <a href="https://www.instagram.com/tommy.soini/" target="_blank">Instagram</a>
+        </div>
+</body>
+</html>
