@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Soini</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue&family=Heebo:400&display=swap">
+    <style>
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: black;
+            padding: 20px;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+        }
+        
+        header h1 {
+            color: white;
+        }
+        
+        nav {
+            text-align: center;
+            background-color: rgb(223, 134, 0);
+            padding: 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex; 
+            justify-content: center; 
+        }
+        
+        nav li {
+            margin-right: 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        
+        @media (min-width: 768px) {
+            nav ul {
+                flex-direction: row; 
+            }
+        }
+
+        
+        @media (max-width: 767px) {
+            nav ul {
+                flex-direction: row; 
+            }
+        }
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        
+        .content-box {
+            background-color: white;
+            color: black;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 400px;
+            
+        }
+        
+        .content-box img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: rgb(223, 134, 0);
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        
+        footer img { max-width: 100%;
+            height: auto;
+            position: absolute;
+            left: 5px;
+            
+        }
+        h1, h2 {
+    font-family: 'Bebas Neue', sans-serif; 
+}
+body, p {
+    font-family: 'Heebo', sans-serif; 
+    font-weight: 400; 
+    
+}
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Kotisivu</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Koti</a></li>
+            <li><a href="Koulutus.html">Koulutus</a></li>
+            <li><a href="työkokemus.html">Työkokemus</a></li>
+            <li><a href="Yhteystiedot.html">Yhteystiedot</a></li>
+        </ul>
+    </nav>
+    <div class="content-container">
+        <div class="content-box">
+            <img src="Tsymi.jpg" alt="Reenillä">
+            <p>Minä olen Tommy Soini, ja olen 24-vuotias. Rakastan käydä kuntosalilla ja pidän itseäni kuntoilun harrastajana. Jo pienenä minua kiinnostivat elektroniikkalaitteet, ja olen aina ollut utelias selvittämään, miten ne toimivat.</p>
+        </div>
+        <div class="content-box">
+            <img src="Keikka.jpg" alt="DJ Setti">
+            <p>Kiinnostukseni teknologiaan ja elektroniikkaan on kasvanut vuosien varrella, ja päätin haastaa itseni IT-alalla. IT-ala ei ole minulle vain työ, vaan se tuntuu lähes harrastukselta. Olen motivoitunut oppimaan uutta ja kehittymään tällä jännittävällä alalla, joka kiinnostaa minua valtavasti.</p>
+        </div>
+        <div class="content-box">
+            <img src="Tokyo.jpg" alt="Tokyo">
+            <p>Unelma on matkustaa Japaniin ja tuoda sieltä Nissan 370Z samalla kun palaan Suomeen. Kyseisen biisin haluan soivan kun ajan laivaan.</p>
+            <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/track/0AuhRB6bdvKY7cFpDdCJv9?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <video width="320" height="240" controls>
+                <source src="Nissan.mp4" type="video/mp4">
+                
+            </video>
+        </div>
+        
+        </div>
+        <footer>
+            <p></p>
+        </footer>
+        
+</div>
+</body>
+</html>
